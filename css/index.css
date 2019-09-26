@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab:400,700&display=swap');
+
 body {
   background-color: lightgrey;
 }
 .stories {
   text-align: center;
+  
 }
 .news {
   background-color: white;
@@ -10,10 +13,43 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align: left;
+  /* border: 1px solid black; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+  padding: 0 0 1em 0; 
+}
+.news-padding{
+  padding: 0 1em;
 }
 .news-lead {
   text-align: center;
+  
 }
 .news-img {
   max-width: 100%;
+  /* height: 40vh; */
+}
+h1,h2{
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+p{
+  font-family: 'roboto slab','Times New Roman',  serif;
+}
+.story-button{
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+}
+.pagination {
+  display: inline-block;
+  color: black;
+  padding: 1em;
+  text-decoration: none;
+  border: 1px solid grey;
+  
+}
+.pagination-center{
+  text-align: center;
 }
